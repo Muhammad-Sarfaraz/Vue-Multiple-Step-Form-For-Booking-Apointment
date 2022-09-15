@@ -1,0 +1,6 @@
+{
+   "Salon": ["Hair Styling", "Make-Up", "Hair Colouring", "Waxing"],
+   "Gym/PT": ["Group Classes", "Gym Access", "Personal Training"],
+   "B&B": ["Personal Training"],
+   "Spa/Masseuse": ["Body", "Facials"]
+}

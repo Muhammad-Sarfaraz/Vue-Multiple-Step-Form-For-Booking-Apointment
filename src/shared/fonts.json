@@ -1,0 +1,62 @@
+[
+    {
+      "titles": [
+        "Roboto",
+        "Arial"
+      ],
+      "fonts": [
+        "'Roboto'",
+        "Arial"
+      ]
+    },
+    {
+      "titles": [
+        "Dancing Script",
+        "Sansita"
+      ],
+      "fonts": [
+        "'Dancing Script'",
+        "Sansita"
+      ]
+    },
+    {
+      "titles": [
+        "Allerta",
+        "Allerta"
+      ],
+      "fonts": [
+        "'Allerta'",
+        "'Allerta'"
+      ]
+    },
+    {
+      "titles": [
+        "Candal",
+        "Candal"
+      ],
+      "fonts": [
+        "'Candal'",
+        "'Candal'"
+      ]
+    },
+    {
+      "titles": [
+        "Fredoka",
+        "Fredoka"
+      ],
+      "fonts": [
+        "'Fredoka'",
+        "'Fredoka'"
+      ]
+    },
+    {
+      "titles": [
+        "Solway",
+        "Solway"
+      ],
+      "fonts": [
+        "'Solway'",
+        "'Solway'"
+      ]
+    }
+]

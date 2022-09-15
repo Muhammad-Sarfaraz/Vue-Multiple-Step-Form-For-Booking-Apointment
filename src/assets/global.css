@@ -1,0 +1,162 @@
+:root{
+    --primary-color: #5261F5;
+    --container-px: 10em;
+    --navbar-height: 75px;
+    --preview-font: 'Roboto', sans-serif;
+
+    --mockup-logo-size: 2.5em;
+
+    --slider-connect-bg: #5261F5;
+    --slider-tooltip-bg: #5261F5;
+    --slider-handle-ring-color: #959ff8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+}
+body::-webkit-scrollbar{
+    width: 0
+}
+html, body, body > div{
+    height: 100%;
+    overflow: hidden;
+
+}
+input, textarea, button{
+    outline: none;
+}
+button{
+    border: none;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.gap-1{
+    gap: 1em;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.d-flex.align-left{
+    align-items: flex-start;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: .5em 1.5em;
+    min-width: 80px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn i{
+    margin-right: .5em;
+}
+.btn[disabled]{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.btn.txt{
+    background-color: transparent;
+    color: rgb(35, 35, 35);
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn.block{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: .65em;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-grey{
+    color: #858585;
+}
+.text-danger{
+    color: #ff0000 !important;
+}
+
+.mt-05{
+    margin-top: .5em;
+}
+.mt-1{
+    margin-top: 1em;
+}
+.mt-2{
+    margin-top: 2em;
+}
+.ml-05{
+    margin-left: .5em;
+}
+.ml-2{
+    margin-left: 2em;
+}
+.bg-none{
+    background-color: transparent;
+}
+.pt-0{
+    padding-top: 0;
+}
+
+.modal-content.wide{
+    max-width: 1200px;
+}
+.modal-content.wide .item-name-price .input-group:last-child{
+    max-width: 200px;
+}
+
+@media(max-width: 1200px){
+    :root{
+        --container-px: 7em;
+    }
+}
+@media(max-width: 992px){
+    :root{
+        --container-px: 4em;
+    }
+}
+@media(max-width: 576px){
+    :root{
+        --container-px: 2em;
+    }
+    *::-webkit-scrollbar{
+        width: 0 !important;
+    }
+    .main-content{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 1em !important;
+    }
+    .menu-create-progress{
+        margin: 0 2em;
+    }
+    .form-content{
+        padding: 0 2em !important;
+        padding-bottom: 2em !important;
+    }
+    .form-footer{
+        padding: 0 2em !important;
+    }
+}
